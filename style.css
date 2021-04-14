@@ -1,0 +1,76 @@
+html, body {
+  width:100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#navArrow {
+  z-index:10;
+  z-index:-1;
+  width: 25%;
+  background-color:red;
+  z-index:2000;
+  border-bottom-style: solid;
+  border-right-style: solid;
+}
+
+#navWrapper {
+  z-index:10;
+  top:0;
+  width: 25%;
+  height:40%;
+  position:fixed;
+  display:none;
+}
+
+#navArrow:hover #navWrapper {
+  display:block;
+}
+
+#topBarWrapper{
+  width: 100%;
+  height:20%;
+  background-color: blue;
+  position:absolute;
+  top:0;
+  z-index: -1;
+}
+
+#topBarText{
+  font-size: 5em;
+  padding:2vh;
+  text-align: center;
+  margin:center;
+}
+
+#bottomWrapper {
+  width:100%;
+  height: 80%;
+  background-color: lightblue;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+.navBox {
+  width: 100%;
+  height: 25%;
+  background-color: red;
+  float: left;
+  border-bottom-style: solid;
+  border-right-style: solid;
+
+}
+
+.navText {
+  font-size: 2em;
+  padding:2vh;
+  text-align: center;
+  margin:center;
+}
