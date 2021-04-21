@@ -55,7 +55,6 @@ a {
   background-color: lightblue;
   position: absolute;
   bottom: 0;
-  z-index: -1;
 }
 
 .navBox {
@@ -68,9 +67,36 @@ a {
 
 }
 
+.bottomBox {
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:5%;
+  width: 90%;
+  height: 25%;
+  background-color: red;
+  bottom: 0;
+  border-style: solid;
+  border-radius: 10vw
+}
+
 .navText {
   font-size: 2em;
   padding:2vh;
+  text-align: center;
+  margin:center;
+}
+
+.bottomText{
+  font-size: 3em;
+  padding:4.5vh;
+  text-align: center;
+  margin:center;
+}
+
+.bottomSmallText {
+  font-size: 2em;
+  padding:4.5vh;
   text-align: center;
   margin:center;
 }
