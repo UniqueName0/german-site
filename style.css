@@ -11,8 +11,8 @@ a {
 }
 
 #navArrow {
+  position: fixed;
   z-index:10;
-  z-index:-1;
   width: 25%;
   background-color:red;
   z-index:2000;
