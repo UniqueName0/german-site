@@ -105,11 +105,23 @@ a {
   width: 90%;
   height:20%;
   background-color: blue;
-  margin: 5%;
+  margin: 3.75%;
   border-radius: 10px;
 }
 
 .bottomBoxImage{
   position: absolute;
-  left:0;
+  width:15%;
+  height: 20%;
+  border-radius: 10px;
+}
+
+.bottomBoxTitle {
+  font-size: 3em;
+  padding-left: 20%;
+}
+
+.bottomBoxDevs {
+  font-size: 2em;
+  padding-left: 20%;
 }
